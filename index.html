@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nina Carducci</title>
+	<title>Nina Carducci | Photographe professionnelle à Bordeaux</title>
+	<meta name="description" content="Découvrez le portfolio de Nina Carducci, photographe professionnelle spécialisée en portraits, mariages, concerts et entreprises. Basée sur Bordeaux, Nina capture vos moments précieux avec une approche artistique unique. Explorez ses services de shooting, retouches et albums photo. Contactez-la pour immortaliser vos souvenirs avec amour et passion.">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
 <body>
 	<!--********************************** HEADER **********************************-->
 	<header>
-		<section class="top-header">
+		<section class="top-header" id="top">
 
 			<!--********************** HEADER - LOGO **********************-->
 			<h1 class="name">Nina Carducci</h1>
@@ -35,7 +36,7 @@
 					<li><a href="#gallery">Galerie</a></li>
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="./assets/images/instagram.webp" alt="Instagram"></a></li>
 				</ul>
 			</nav>
 		</section>
@@ -53,46 +54,17 @@
 
 				<!--********************** HEADER - CAROUSSEL - INNER **********************-->
 				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img 
-						src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-2048w.webp" 
-						srcset="
-							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-300w.webp 300w,
-							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1140w.webp 1140w,
-							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1580w.webp 1580w,
-							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920w.webp 1920w,
-							./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-2048w.webp 2048w"
-						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
-						class="d-block w-100" 
-						alt="Un homme d'affaire marchant sur un grand passage piéton">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./assets/images/slider/ryoji-iwata-unsplash.webp" class="d-block w-100" alt="Un homme d'affaire marchant sur un grand passage piéton">
+						</div>
+						<div class="carousel-item">
+							<img src="./assets/images/slider/nicholas-green-unsplash.webp" class="d-block w-100" alt="Une foule de personnes dans un concert">
+						</div>
+						<div class="carousel-item">
+							<img src="./assets/images/slider/edward-cisneros-unsplash.webp" class="d-block w-100" alt="Un couple qui danse et s'embrasse pendant leur mariage, entouré de leurs invités">
+						</div>
 					</div>
-					<div class="carousel-item">
-						<img 
-						src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-2048w.webp" 
-						srcset="
-							./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-300w.webp 300w,
-							./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1140w.webp 1140w,
-							./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1580w.webp 1580w,
-							./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920w.webp 1920w,
-							./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-2048w.webp 2048w"
-						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
-						class="d-block w-100" 
-						alt="Une foule de personnes dans un concert">
-					</div>
-					<div class="carousel-item">
-						<img 
-						src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-2048w.webp" 
-						srcset="
-						./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-300w.webp 300w,
-						./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1140w.webp 1140w,
-						./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1580w.webp 1580w,
-						./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920w.webp 1920w,
-						./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-2048w.webp 2048w"
-						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
-						class="d-block w-100" 
-						alt="Un couple qui danse et s'embrasse pendant leur mariage, entouré de leurs invités">
-					</div>
-				</div>
 
 				<!--*************** HEADER - CAROUSSEL - BUTTON PREVIOUS  *****************-->
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -141,93 +113,93 @@
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item" 
-						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1090w.webp"
+						src="./assets/images/gallery/concerts/aaron-paul-1090w.webp"
 						srcset="
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-254w.webp 254w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-448w.webp 448w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-608w.webp 608w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-728w.webp 728w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-848w.webp 848w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/concerts/aaron-paul-254w.webp 254w,
+							./assets/images/gallery/concerts/aaron-paul-448w.webp 448w,
+							./assets/images/gallery/concerts/aaron-paul-608w.webp 608w,
+							./assets/images/gallery/concerts/aaron-paul-728w.webp 728w,
+							./assets/images/gallery/concerts/aaron-paul-848w.webp 848w,
+							./assets/images/gallery/concerts/aaron-paul-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Une salle de concert avec des spots de lumières rouges">
 					<img data-gallery-tag="Entreprises" class="gallery-item" 
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-1090w.webp"
+						src="./assets/images/gallery/entreprise/ali-morshedlou-1090w.webp"
 						srcset="
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-254w.webp 254w,
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-448w.webp 448w,
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-608w.webp 608w,
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-728w.webp 728w,
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-848w.webp 848w,
-							./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/entreprise/ali-morshedlou-254w.webp 254w,
+							./assets/images/gallery/entreprise/ali-morshedlou-448w.webp 448w,
+							./assets/images/gallery/entreprise/ali-morshedlou-608w.webp 608w,
+							./assets/images/gallery/entreprise/ali-morshedlou-728w.webp 728w,
+							./assets/images/gallery/entreprise/ali-morshedlou-848w.webp 848w,
+							./assets/images/gallery/entreprise/ali-morshedlou-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Un homme d'affaire en tenue de costard">
 					<img data-gallery-tag="Entreprises" class="gallery-item" 
-						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-1090w.webp"
+						src="./assets/images/gallery/entreprise/jason-goodman-1090w.webp"
 						srcset="
-							./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-254w.webp 254w,
-							./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-608w.webp 608w,
-							./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-848w.webp 848w,
-							./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/entreprise/jason-goodman-254w.webp 254w,
+							./assets/images/gallery/entreprise/jason-goodman-608w.webp 608w,
+							./assets/images/gallery/entreprise/jason-goodman-848w.webp 848w,
+							./assets/images/gallery/entreprise/jason-goodman-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Une femme qui sourit et une femme de dos">
 					<img data-gallery-tag="Mariages" class="gallery-item" 
-						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-1090w.webp"
+						src="./assets/images/gallery/mariage/hannah-busing-1090w.webp"
 						srcset="
-							./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-304w.webp 304w,
-							./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-608w.webp 608w,
-							./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-848w.webp 848w,
-							./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/mariage/hannah-busing-304w.webp 304w,
+							./assets/images/gallery/mariage/hannah-busing-608w.webp 608w,
+							./assets/images/gallery/mariage/hannah-busing-848w.webp 848w,
+							./assets/images/gallery/mariage/hannah-busing-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Les mains d'un couple marié">
 					<img data-gallery-tag="Portrait" class="gallery-item" 
-						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-1090w.webp"
+						src="./assets/images/gallery/portraits/ade-tunji-1090w.webp"
 						srcset="
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-254w.webp 254w,
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-448w.webp 448w,
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-608w.webp 608w,
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-728w.webp 728w,
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-848w.webp 848w,
-							./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/portraits/ade-tunji-254w.webp 254w,
+							./assets/images/gallery/portraits/ade-tunji-448w.webp 448w,
+							./assets/images/gallery/portraits/ade-tunji-608w.webp 608w,
+							./assets/images/gallery/portraits/ade-tunji-728w.webp 728w,
+							./assets/images/gallery/portraits/ade-tunji-848w.webp 848w,
+							./assets/images/gallery/portraits/ade-tunji-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Portrait d'un homme qui ferme les yeux">
 					<img data-gallery-tag="Mariages" class="gallery-item" 
-						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-1090w.webp"
+						src="./assets/images/gallery/mariage/jakob-owens-1090w.webp"
 						srcset="
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-254w.webp 254w,
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-448w.webp 448w,
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-608w.webp 608w,
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-728w.webp 728w,
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-848w.webp 848w,
-							./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/mariage/jakob-owens-254w.webp 254w,
+							./assets/images/gallery/mariage/jakob-owens-448w.webp 448w,
+							./assets/images/gallery/mariage/jakob-owens-608w.webp 608w,
+							./assets/images/gallery/mariage/jakob-owens-728w.webp 728w,
+							./assets/images/gallery/mariage/jakob-owens-848w.webp 848w,
+							./assets/images/gallery/mariage/jakob-owens-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Un couple marié qui se tienne la main et qui sourit">
 					<img data-gallery-tag="Portrait" class="gallery-item" 
-						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-1090w.webp"
+						src="./assets/images/gallery/portraits/nino-van-prattenburg-1090w.webp"
 						srcset="
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-254w.webp 254w,
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-448w.webp 448w,
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-608w.webp 608w,
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-728w.webp 728w,
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-848w.webp 848w,
-							./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/portraits/nino-van-prattenburg-254w.webp 254w,
+							./assets/images/gallery/portraits/nino-van-prattenburg-448w.webp 448w,
+							./assets/images/gallery/portraits/nino-van-prattenburg-608w.webp 608w,
+							./assets/images/gallery/portraits/nino-van-prattenburg-728w.webp 728w,
+							./assets/images/gallery/portraits/nino-van-prattenburg-848w.webp 848w,
+							./assets/images/gallery/portraits/nino-van-prattenburg-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Portrait d'une femme avec des lunettes">
 					<img data-gallery-tag="Concert" class="gallery-item" 
-						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-1090w.webp"
+						src="./assets/images/gallery/concerts/austin-neill-1090w.webp"
 						srcset="
-							./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-254w.webp 254w,
-							./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-608w.webp 608w,
-							./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-848w.webp 848w,
-							./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/concerts/austin-neill-254w.webp 254w,
+							./assets/images/gallery/concerts/austin-neill-608w.webp 608w,
+							./assets/images/gallery/concerts/austin-neill-848w.webp 848w,
+							./assets/images/gallery/concerts/austin-neill-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Un chanteur sur scène">
 					<img data-gallery-tag="Entreprises" class="gallery-item" 
-						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-1090w.webp"
+						src="./assets/images/gallery/entreprise/mateus-campos-felipe-1090w.webp"
 						srcset="
-							./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-608w.webp 608w,
-							./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-848w.webp 848w,
-							./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-1090w.webp 1090w"
+							./assets/images/gallery/entreprise/mateus-campos-felipe-608w.webp 608w,
+							./assets/images/gallery/entreprise/mateus-campos-felipe-848w.webp 848w,
+							./assets/images/gallery/entreprise/mateus-campos-felipe-1090w.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 						alt="Une femme qui sourit devant son ordinateur">
 				</div>
@@ -303,13 +275,13 @@
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
-						<label>Nom</label>
-						<input type="text" name="nom" id="nom">
-						<label>Email</label>
-						<input type="email" name="email" id="email">
-						<label>Message</label>
-						<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<form method="post">
+						<label for="nom">Nom</label>
+							<input type="text" name="nom" id="nom" aria-required="true" required>
+						<label for="email">Email</label>
+							<input type="email" name="email" id="email" aria-required="true" required>
+						<label for="message">Message</label>
+							<textarea name="message" id="message" cols="30" rows="10" aria-required="true" required></textarea>
 						<input type="submit" value="Envoyer"/>
 					</form>
 				</div>
@@ -327,8 +299,31 @@
 	</main>
 
 	<!--************************************** FOOTER ****************************************-->
-	<footer>
+	<footer class="footer-content">
+		<div class="footer-cat-logo">
+				<a class="logo-footer" href="#top">Nina Carducci</a>
+				<div class="socialmedia">
+					<ul>
+						<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="./assets/images/instagram.webp" alt="Logo instagram"></a></li>
+						<li><a class="social-link" href="https://www.facebook.com/ninacarducci" target="_blank"><img src="./assets/images/facebook.webp" alt="Logo Facebook"></a></li>
+						<li><a class="social-link" href="https://www.twitter.com/ninacarducci" target="_blank"><img src="./assets/images/twitter.webp" alt="Logo Twitter"></a></li>
+					</ul>
+				</div>
 
+		</div>
+		<div class="footer-cat-address">
+			<div class="footer-title">Où me trouver ?</div>
+			<address>68 avenue Alsace-Lorraine<br> 33200 Bordeaux</address>
+		</div>
+		<div class="footer-cat-contact">
+			<div class="footer-title">Contact</div>	
+			<ul class="footer-info">
+					<li>05 56 67 78 89</li>
+					<li>Du lundi au vendredi</li>
+					<li>De 10h à 19h</li>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
