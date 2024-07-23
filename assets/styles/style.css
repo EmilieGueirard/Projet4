@@ -325,9 +325,15 @@ input[type="submit"] {
 	color: var(--black-color);
 }
 
+.logo-footer:hover {
+	color: var(--black-color);
+}
+
 .footer-cat-contact p {
 	margin-bottom: 0;
 }
+
+
 /*************************** MEDIA QUERIES *************************/
 
 /*********** Medium devices (tablets, less equal than 1180px) ************/
