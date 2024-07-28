@@ -225,6 +225,22 @@ h2 {
 	z-index: 1;
 }
 
+.service__price strong,
+.price-details {
+    display: block;
+}
+
+.service__price strong {
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+
+.price-details {
+	line-height: 19.5px;
+}
+
 #contact {
 	margin: auto;
 	background-color: var(--contact-color-light);

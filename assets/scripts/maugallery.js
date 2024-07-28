@@ -130,8 +130,8 @@
           }
       });
   
-      let currentIndex = imagesCollection.indexOf(activeImage);
-      let prevIndex = currentIndex - 1;
+      let index = imagesCollection.indexOf(activeImage);
+      let prevIndex = index - 1;
       if (prevIndex < 0) {
           prevIndex = imagesCollection.length - 1;
       }
@@ -150,8 +150,8 @@
           }
       });
   
-      let currentIndex = imagesCollection.indexOf(activeImage);
-      let nextIndex = currentIndex + 1;
+      let index = imagesCollection.indexOf(activeImage);
+      let nextIndex = index + 1;
       if (nextIndex >= imagesCollection.length) {
           nextIndex = 0;
       }
